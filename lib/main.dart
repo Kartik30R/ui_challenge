@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        scaffoldBackgroundColor: Color.fromARGB(255, 196, 196, 196),
+        scaffoldBackgroundColor: Color.fromRGBO(249, 249, 249, 1),
        primaryColor: Color.fromARGB(255, 198, 124, 78)
       ),
       home: NavigationScreen(),

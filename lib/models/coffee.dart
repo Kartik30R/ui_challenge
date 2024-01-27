@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 
-enum Category {
+enum  Category {
   Cappuccino,
   Machiato,
   Latte,
