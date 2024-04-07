@@ -1,6 +1,4 @@
-import 'package:coffee_app/Screens/Coffee_detail_screen.dart';
 import 'package:coffee_app/Screens/Navigation.dart';
-import 'package:coffee_app/models/coffee.dart';
 import 'package:flutter/material.dart';
 
 void main() {
