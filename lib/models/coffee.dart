@@ -1,34 +1,38 @@
 
-import 'package:flutter/material.dart';
 
-enum  Category {
-  Cappuccino,
-  Machiato,
-  Latte,
-  Americano,
-}
+// ignore_for_file: constant_identifier_names
 
-enum Size {
+  enum  Category {
+    Cappucino,
+    Machiato,
+    Latte,
+    Americano,
+  }
+
+enum CoffeeSize {
   S,M,L
 }
 
 
 
 class Coffee {
-  const Coffee( {
+  const Coffee(  {
     required this.size,
     required this.category,
     required this.price,
     required this.ingredient,
     required this.image,
+    required this.rating,
+    required this.customer,
   });
 
-  
+  final String rating;
   final String ingredient;
-  final Image image;
+  final String image;
   final Category category;
   final double price;
-  final Size size;
+  final CoffeeSize size;
+  final int customer;
  
 }
 

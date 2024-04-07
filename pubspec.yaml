@@ -38,6 +38,7 @@ dependencies:
   iconly: ^1.0.1
   google_fonts: ^6.1.0
   font_awesome_flutter: ^10.6.0
+  readmore: ^3.0.0
 
 dev_dependencies:
   flutter_test:

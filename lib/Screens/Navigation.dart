@@ -35,7 +35,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
          Container(
           // margin: EdgeInsets.symmetric(20),
           height: screenWidth * .2,
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: Color.fromARGB(255, 255, 255, 255),
            
             borderRadius: BorderRadius.only(topLeft: Radius.circular(24),topRight: Radius.circular(24)),
@@ -69,12 +69,12 @@ class _NavigationScreenState extends State<NavigationScreen> {
                             : Colors.black26,
                       ),
                     ),
-                    SizedBox(height: 6,),
+                    const SizedBox(height: 6,),
                      SizedBox(
                       width: screenWidth * .2125,
                       child: Center(
                         child: AnimatedContainer(
-                          duration: Duration(seconds: 1),
+                          duration: const Duration(seconds: 1),
                           curve: Curves.fastLinearToSlowEaseIn,
                           height: index == currentIndex ? 5: 0,
                           width: index == currentIndex ? 10: 0,

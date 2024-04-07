@@ -17,26 +17,26 @@ class _SearchWidgetState extends State<SearchWidget> {
       child: TextField(
         textAlignVertical: TextAlignVertical.bottom,
         decoration: InputDecoration(
-            border: OutlineInputBorder(
+            border: const OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(16)),
                 borderSide: BorderSide.none),
-            enabled: true,
+            // enabled: true,
             filled: true,
-            fillColor: Color.fromARGB(255, 49, 49, 49),
-            hintStyle: TextStyle(color: Color.fromRGBO(152, 152, 152, 1)),
+            fillColor: const Color.fromARGB(255, 49, 49, 49),
+            hintStyle: const TextStyle(color: Color.fromRGBO(152, 152, 152, 1)),
             hintText: 'Search coffee',
-            prefixIconColor: Color.fromARGB(255, 255, 255, 255),
-            prefixIcon: Icon(
+            prefixIconColor: const Color.fromARGB(255, 255, 255, 255),
+            prefixIcon: const Icon(
               IconlyLight.search,
             ),
             suffixIcon: Container(
-              margin: EdgeInsets.all(4),
+              margin: const EdgeInsets.all(4),
               height: 44,
               width: 44,
               decoration: BoxDecoration(
-                  color: Color.fromRGBO(198, 124, 78, 1),
+                  color: const Color.fromRGBO(198, 124, 78, 1),
                   borderRadius: BorderRadius.circular(12)),
-              child: Icon(
+              child: const Icon(
                 FontAwesomeIcons.sliders,
                 size: 20,
                 color: Colors.white,
